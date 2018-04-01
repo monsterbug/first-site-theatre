@@ -1,0 +1,120 @@
+body {
+	font-family: Corier;
+	font-variant: normal;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+
+.container {
+	width: 970px;
+	margin: auto;
+}
+
+header {
+	background: url(../img/opera8.jpg) no-repeat center top /cover;
+
+
+	height: 350px;
+
+}
+
+#first {
+ background: linear-gradient(to bottom, #691618 0%, #330000 100%);
+	height: 60px;
+	padding: 1px;
+
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li {
+	float: left;
+	display: block;
+
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.menu a :hover {
+	color: black
+}
+
+
+h2 {
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+#input {
+	background-color: #f2f2f2;
+	padding: 1px;
+	height: 500px;
+	background: url(../img/donkihot.jpg) no-repeat center top /cover;
+
+
+}
+
+#div2 {
+	text-align: center;
+	display: flex;
+	height: 350px;
+	justify-content: space-between;
+
+}
+
+#textbg {
+	position: relative;
+	top: 180px;
+	background-color: rgba(32, 28, 25, 0.5);
+	border: 0px solid rgba(32, 28, 25, 0.5);
+	border-radius: 10px;
+	height: 100px;
+	width: 945px;
+	margin: 0 auto;
+}
+
+#text {
+	position: relative;
+	top: 40px;
+	font-size: 50px;
+	font-weight: bolder;
+	color:  #691618;
+text-shadow:-1px 0px 4px #f2f2e5;
+
+}
+
+
+#back, #next  {
+	padding-top: 100px;
+	height: 60px;
+	position: relative;
+	z-index: 20
+}
+
+
+
+
+
+footer {
+	padding: 1px;
+	 background: linear-gradient(to bottom, #691618 0%, #330000 100%);
+	height: 50px;
+
+
+}
+
+h5 {
+	color: white;
+	text-align: center;
+}
